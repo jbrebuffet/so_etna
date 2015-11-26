@@ -1,0 +1,40 @@
+{
+    "name": "etna/auth-service-provider",
+    "description": "Authenticator Service Provider",
+    "keywords": ["authenticator", "silex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ETNA",
+            "email": "dev@etna-alternance.net",
+            "homepage": "http://etna-alternance.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "silex/silex": "1.x",
+        "etna/php-rsa": "~0.2.0"
+    },
+    "require-dev": {
+        "behat/behat": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ETNA\\Silex\\Provider\\Auth\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "behat"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "repositories": [
+       {
+           "type": "composer",
+           "url": "http://blu-composer.herokuapp.com"
+       }
+   ]
+}
