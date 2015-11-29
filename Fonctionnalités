@@ -1,0 +1,11 @@
+Fonctionalités qui marchent:
+-effectuer une reservation
+-changer l'état associer à une reservation (en attente, en prêt, rendu)
+-changer le groupe d'un user pour reduire ou augmenter son scope de responsabilité
+-calendrier indiquant les différentes reservations, possibilité de selectionner une seule resource
+ou plusieurs
+-demande de confirmation obligatoire pour une reservation
+
+Fonctionnalité à activer/configurer pour repondre totalement au besoin:
+-configurer les settings smtp pour l'envoi de mail par l'application
+-integration d'un plugin d'authentification pour pouvoir s'authentifier auprès du serveur d'authentification de l'etna
